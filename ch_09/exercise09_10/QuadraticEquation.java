@@ -68,7 +68,7 @@ public class QuadraticEquation {
 
     /* ■ A method named getDiscriminant() that returns the discriminant, which is b2 - 4ac.*/
     protected double getDiscriminant() {
-        return (b * 2) - (4 * a * c);
+        return Math.pow(b, 2) - (4*a*c) ;
     }
 
 
